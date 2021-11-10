@@ -1,0 +1,233 @@
+* {
+        font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background: rgba(127, 252, 137, 0.4);
+    border: 3px solid rgb(0, 153, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: -1px;
+}
+
+
+
+h1 {
+    font-weight: bold;
+    color: #000;
+    font-size:30px;
+}
+
+p {
+    color:#000;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.sprint1 {
+    width: 100%;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.sprint1:hover{
+    background: rgb(239, 252, 230);
+}
+
+
+
+
+
+
+.sprint2 {
+    width: 100%;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.sprint2:hover{
+    background: rgb(239, 252, 230);
+}
+
+
+
+
+
+
+.sprint3 {
+    width: 100%;
+    height: 300px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.sprint3:hover{
+    background: rgb(239, 252, 230);
+}
+
+
+
+
+
+
+.sptitle {
+    width: 100%;
+    height: 50px;
+    background: rgb(172, 245, 196);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spworks {
+    width: 100%;
+    height: 250px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.spworks:hover{
+        background: rgb(239, 252, 230);
+}
+
+.work {
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    margin-top: 30px;
+    border:2px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.work:hover {
+    width: 120px;
+    height: 120px;
+    background: rgb(216, 255, 188);
+    border-radius: 25px;
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background: rgb(54, 54, 54);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 50px;
+    height: 30px;
+    background: rgb(216, 255, 188);
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    width: 65px;
+    height: 40px;
+    background: rgb(172, 250, 214);
+    border-radius: 5px;
+}
+
+
+
+
+
+h2 {
+    color: #000;
+    font-size:25px;
+}
+
+i {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a p {
+    color: #000;
+    font-size:15px;
+}
+
+h3 {
+    color: #000;
+    font-size:20px;
+}
+
+
+
+
+@media screen and (max-width:991px) {
+
+    .header {
+        width: 70%;
+    }
+    .sprint1 {
+        width: 60%;
+        height: 1200px;
+    }
+    .sprint2 {
+        width: 60%;
+        height: 1200px;
+    }
+    .sprint3 {
+        width: 60%;
+        height: 1200px;
+    }
+    .spworks {
+        height: 1150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
